@@ -2,7 +2,7 @@
 <html lang="ar">
 <head>
     <meta charset="UTF-8">
-    <title>Profile Manager Result</title>
+    <title>Profile Manager</title>
 </head>
 <body>
 
@@ -14,9 +14,10 @@
             let _0x4f2a = [
                 'Cairo', 22, 'Amira', 'Developer', 23, 
                 'amira@gmail.com', '01000000000', 'Active', 
-                1, 100, 'keys', 'values', 'entries', 
+                1, 100, 
                 'getFullYear', 'getMonth', 'getDate', 'getDay', 
-                'getHours', 'getMinutes', 'floor', 'ceil', 'round'
+                'getHours', 'getMinutes', 
+                'floor', 'ceil', 'round'
             ];
             
             let u = {
@@ -44,17 +45,17 @@
             subObj.status = _0x4f2a[7];
             
             let d = new Date();
-            let yr = d[_0x4f2a[11]]();
-            let mn = d[_0x4f2a[12]]() + 1;
-            let dt = d[_0x4f2a[13]]();
-            let dy = d[_0x4f2a[14]]();
-            let hr = d[_0x4f2a[15]]();
-            let min = d[_0x4f2a[16]]();
+            let yr = d[_0x4f2a[10]]();
+            let mn = d[_0x4f2a[11]]() + 1;
+            let dt = d[_0x4f2a[12]]();
+            let dy = d[_0x4f2a[13]]();
+            let hr = d[_0x4f2a[14]]();
+            let min = d[_0x4f2a[15]]();
             
             let rnd = Math.random() * (_0x4f2a[9] - _0x4f2a[8]) + _0x4f2a[8];
-            let rRnd = Math[_0x4f2a[20]](rnd);
-            let fRnd = Math[_0x4f2a[17]](rnd);
-            let cRnd = Math[_0x4f2a[18]](rnd);
+            let rRnd = Math[_0x4f2a[18]](rnd);
+            let fRnd = Math[_0x4f2a[16]](rnd);
+            let cRnd = Math[_0x4f2a[17]](rnd);
             
             let res = `<b>Keys:</b> ${k.join(', ')}<br>` +
                       `<b>Values:</b> ${v.join(', ')}<br>` +
@@ -68,11 +69,6 @@
         }
     })();
     </script>
-
-</body>
-</html>
-})();
-</script>
 
 </body>
 </html>
